@@ -1,0 +1,431 @@
+.title { 
+
+    color: black; 
+
+    background-color: white; 
+
+    float: inline-start; 
+
+    margin: 8px 0 8px 8px; 
+
+    font-weight: normal; 
+
+    font-family: 'Lobster', cursive; 
+
+    font-size: 32px; 
+
+    /* text-shadow: 4px 4px 5px rgba(0,0,0,0.5); */ 
+
+    padding: 0.4em 0.5em; 
+
+    /*文字の上下 左右の余白*/ 
+
+    background: #d5edf5; 
+
+    /*背景色*/ 
+
+    border-left: solid 5px #7db4e6; 
+
+    /*左線*/ 
+
+    border-bottom: solid 3px #d7d7d7; 
+
+    /*下線*/ 
+
+} 
+
+ 
+ 
+
+.body { 
+
+    font-family: FontAwesome; 
+
+    margin: 0; 
+
+    background-color: whitesmoke; 
+
+} 
+
+ 
+ 
+
+body { 
+
+    width: 100%; 
+
+    margin: 0 auto; 
+
+} 
+
+ 
+ 
+
+#A { 
+
+    height: 150px; 
+
+} 
+
+ 
+ 
+
+#B { 
+
+    width: 30%; 
+
+    min-height: 500px; 
+
+    height: auto; 
+
+    background-color: #d5edf5; 
+
+    float: right; 
+
+    /* margin-top:10px; */ 
+
+    margin: 10px 0 8px 8px; 
+
+    /* .box28 {  
+
+     
+
+    position: relative;  
+
+     
+
+    margin: 2em 0;  
+
+     
+
+    padding: 25px 10px 7px;  
+
+     
+
+    border: solid 2px #FFC107;  
+
+     
+
+    }   
+
+     
+
+      
+
+      
+
+     
+
+    .box28 .box-title {  
+
+     
+
+    position: absolute;  
+
+     
+
+    display: inline-block;  
+
+     
+
+    top: -2px;  
+
+     
+
+    left: -2px;  
+
+     
+
+    padding: 0 9px;  
+
+     
+
+    height: 25px;  
+
+     
+
+    line-height: 25px;  
+
+     
+
+    font-size: 17px;  
+
+     
+
+    background: #FFC107;  
+
+     
+
+    color: #ffffff;  
+
+     
+
+    font-weight: bold;  
+
+     
+
+    }  
+
+     
+
+    .box28 p {  
+
+     
+
+    margin: 0;   
+
+     
+
+    padding: 0;   
+
+     
+
+    }*/ 
+
+} 
+
+ 
+ 
+
+#C { 
+
+    width: 65%; 
+
+    min-height: 500px; 
+
+    height: auto; 
+
+    background-color: #d5edf5; 
+
+    /* margin-top:10px; */ 
+
+    border: solid 2px #7db4e6; 
+
+    margin: 10px 0 8px 8px; 
+
+} 
+
+ 
+ 
+
+#D { 
+
+    height: 100px; 
+
+    background-color: #d5edf5; 
+
+    /* margin-top:10px; */ 
+
+    border: solid 2px #7db4e6; 
+
+    margin: 8px 0 8px 8px; 
+
+} 
+
+ 
+ 
+
+.breadcrumb { 
+
+    margin: 0; 
+
+    padding: 1.1em 1em; 
+
+    list-style: none; 
+
+    background: #d5edf5; 
+
+    overflow: hidden; 
+
+    margin: 8px 0 8px 8px; 
+
+} 
+
+ 
+ 
+
+.breadcrumb li { 
+
+    display: inline; 
+
+    /*横に並ぶように*/ 
+
+    list-style: none; 
+
+} 
+
+ 
+ 
+
+.breadcrumb li:after { 
+
+    /* >を表示*/ 
+
+    font-family: FontAwesome; 
+
+    content: '\f101'; 
+
+    padding: 0 0.2em; 
+
+    color: #8186a0; 
+
+} 
+
+ 
+ 
+
+.breadcrumb li:last-child:after { 
+
+    content: ''; 
+
+} 
+
+ 
+ 
+
+.breadcrumb li a { 
+
+    text-decoration: none; 
+
+    color: #273376; 
+
+} 
+
+ 
+ 
+
+.breadcrumb li:first-child a:before { 
+
+    /*家アイコンに*/ 
+
+    font-family: FontAwesome; 
+
+    /* content: '\fa-home'; */ 
+
+    font-weight: normal; 
+
+    font-size: 1.1em; 
+
+} 
+
+ 
+ 
+
+.breadcrumb li a:hover { 
+
+    text-decoration: underline; 
+
+} 
+
+ 
+ 
+
+.game { 
+
+    margin: 8px 0 0 4px; 
+
+} 
+
+ 
+ 
+
+.from_home_to_game { 
+
+    margin: 0 0 8px 8px; 
+
+} 
+
+ 
+ 
+
+.music { 
+
+    margin: 8px 0 0 4px; 
+
+} 
+
+ 
+ 
+
+.from_home_to_music { 
+
+    margin: 0 0 8px 8px; 
+
+} 
+
+ 
+ 
+
+.else { 
+
+    margin: 8px 0 0 4px; 
+
+} 
+
+ 
+ 
+
+.from_home_to_else { 
+
+    margin: 0 0 8px 8px; 
+
+} 
+
+ 
+ 
+
+.box28 { 
+
+    position: relative; 
+
+    margin: 2em 0; 
+
+    padding: 25px 10px 7px; 
+
+    border: solid 2px #7db4e6; 
+
+} 
+
+ 
+ 
+
+.box28 .box-title { 
+
+    position: absolute; 
+
+    display: inline-block; 
+
+    top: -2px; 
+
+    left: -2px; 
+
+    padding: 0 9px; 
+
+    height: 25px; 
+
+    line-height: 25px; 
+
+    font-size: 17px; 
+
+    background: #d5edf5; 
+
+    color: #7db4e6; 
+
+    font-weight: bold; 
+
+    border: solid 2px #7db4e6; 
+
+} 
+
+ 
+ 
+
+.box28 p { 
+
+    margin: 0; 
+
+    padding: 0; 
+
+} 
+
+ 
