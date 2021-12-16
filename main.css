@@ -1,84 +1,35 @@
-.title {  
+     h1{color: black;}
+     h1{background-color: white;  }
+     h1{float: inline-start;}
+     h1{margin: 8px 0 8px 8px;  }
+     h1{font-weight: normal; }
+     h1{font-size: 32px; }
+     h1{font-family: 'Lobster',cursive; }
+     h1{padding: 0.4em 0.5em;}
+     h1{background: #d5edf5;}
+     h1{border-left: solid 5px #7db4e6;}
+     h1{border-bottom: solid 3px #d7d7d7;}
 
- 
- 
+　　　
+      h2{background-color: lightcyan;}
 
-color: black;  
+     body{
+　　　font-family: FontAwesome
+     margin: 0
+     width:100%
+     margin:0 auto
+　　　}
 
-background-color: white;  
+　　　#A { 
 
-float: inline-start;  
-
-margin: 8px 0 8px 8px;  
-
-font-weight: normal; 
-
- 
- 
-
-font-family: 'Lobster',cursive; 
-
- 
- 
-
-font-size: 32px; 
-
- 
- 
-
-/* text-shadow: 4px 4px 5px rgba(0,0,0,0.5); */ 
-
- 
- 
-
-padding: 0.4em 0.5em;/*文字の上下 左右の余白*/ 
-
-background: #d5edf5;/*背景色*/ 
-
-border-left: solid 5px #7db4e6;/*左線*/ 
-
-border-bottom: solid 3px #d7d7d7;/*下線*/ 
-
-} 
-
- 
- 
-
-.body {  
-
-font-family: FontAwesome;  
-
-margin: 0; 
-
-background-color: whitesmoke;  
-
-}  
-
- 
- 
-
-body { 
-
-width:100%; 
-
-margin:0 auto; 
-
-} 
-
- 
- 
-
-#A { 
-
-height:150px; 
+width:50%; 
 
 } 
 
 #B { 
 
-width:30%; 
+width:auto; 
 
-min-height:500px; 
 
 height:auto ; 
 
@@ -88,7 +39,7 @@ float:right;
 
 /* margin-top:10px; */ 
 
-margin: 10px 0 8px 8px; 
+margin: 2px 0 8px 8px; 
 
 /* .box28 { 
 
@@ -164,7 +115,7 @@ margin: 10px 0 8px 8px;
 
 #D {  
 
-height:100px; 
+height:130px; 
 
 background-color: #d5edf5; 
 
@@ -174,10 +125,11 @@ border: solid 2px #7db4e6;
 
 margin: 8px 0 8px 8px; 
 
+word-warp: break-word;
+
 } 
 
- 
- 
+
  
 
 .breadcrumb { 
@@ -217,7 +169,9 @@ padding: 0 0.2em;
 color: #8186a0; 
 
 } 
+.senden{
 
+}
 .breadcrumb li:last-child:after { 
 
 content: ''; 
@@ -323,7 +277,7 @@ border: solid 2px #7db4e6;
 
 position: absolute; 
 
-display: inline-block; 
+/*display: inline-block;*/ 
 
 top: -2px; 
 
@@ -347,6 +301,18 @@ border: solid 2px #7db4e6;
 
 } 
 
+.js-animation {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(40px);
+  transition: all 1s;
+}
+.js-animation.is-show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+
 .box28 p { 
 
 margin: 0;  
@@ -355,4 +321,106 @@ padding: 0;
 
 } 
 
- 
+
+.dis {
+  background-size:contain;
+  width:40%;
+  color: #7db4e6;/*文字色*/
+  padding: 0.5em 2em 0.5em 0.4em;/*文字周りの余白*/
+  //display: inline-block;/*おまじない*/
+  line-height: 1.4;/*行高*/
+  background: #FFFF66;/*背景色*/
+  vertical-align: middle;
+  border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
+
+border: solid 1px #7db4e6; 
+margin:10px auto;
+text-align:center;
+}
+
+
+.dis:before {
+  content: '●';
+  color: white;
+  margin-right: 8px;
+}
+.game {
+  position: relative;
+  padding: 0.5em 0.5em;
+  background: #b6e9ff;
+  color: #393939;
+  margin 2em 0 0 0;
+}
+.game:before {
+  content: " ";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  width: -webkit-calc(100% - 16px);
+  width: calc(100% - 16px);
+  height: 0;
+  border: solid 8px transparent;
+  border-bottom-color: #b2ddf0;
+}
+
+.music {
+  position: relative;
+  padding: 0.35em 0.5em;
+  background: #5aff19;
+  color: #393939;
+}
+.music:before {
+  content: " ";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  width: -webkit-calc(100% - 16px);
+  width: calc(100% - 16px);
+  height: 0;
+  border: solid 8px transparent;
+  border-bottom-color: #b2ddf0;
+}
+
+.else {
+  position: relative;
+  padding: 0.35em 0.5em;
+  background: #fff450;
+  color: #393939;
+}
+.else:before {
+  content: " ";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  width: -webkit-calc(100% - 16px);
+  width: calc(100% - 16px);
+  height: 0;
+  border: solid 8px transparent;
+  border-bottom-color: #b2ddf0;
+}
+h3{text-align:center;}
+.boxa{
+    position: relative;
+    background: #fff0cd;
+    box-shadow: 0px 0px 0px 5px #fff0cd;
+    border: dashed 2px white;
+    padding: 0.2em 1em;
+    margin: 0.2em 1em;
+
+    color: #454545;
+}
+.boxa:after{
+    position: absolute;
+    content: '';
+    right: -7px;
+    top: -7px;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #ffdb88 #fff #ffdb88;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.boxa p {
+    margin: 0; 
+    padding: 0;
+    text-align:center;
+}
