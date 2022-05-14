@@ -3,14 +3,14 @@
 function header(){
 	document.getElementById("header").innerHTML = "<header>"+
 	"<div class='header_1'>"+
-		'<img src="./photos/header_.png" class="header">'+
+		'<img src="../photos/header_.png" class="header">'+
 		'<ul class="ddmenu">'+
 			'<li><a href="./index.html" target="_self">HOME</a></li>'+
 			'<li><a href="#" target="_self">作品一覧</a>'+
 '				<ul type="sqare">'+
-'					<li><a href="../html/game.html" target="_self">ゲーム作品</a></li>'+
-'					<li><a href="../html/music.html" target="_self">メディア作品</a></li>'+
-'					<li><a href="../html/else.html" target="_self">その他作品</a></li>'+
+'					<li><a href="./game.html" target="_self">ゲーム作品</a></li>'+
+'					<li><a href="./music.html" target="_self">メディア作品</a></li>'+
+'					<li><a href="./else.html" target="_self">その他作品</a></li>'+
 '				</ul>'+
 '			</li>'+
 '			<li><a href="#" target="_self">未定</a>'+
