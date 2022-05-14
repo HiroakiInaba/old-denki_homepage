@@ -31,26 +31,16 @@
 }
 
 .body {
-
 	font-family: FontAwesome;
-
 	margin: 0;
-
-
-
-}
-
-body {
-
 	width: 100%;
-
 	margin: 0 auto;
-
+	background-color: #efeeee
 }
 
 #A {
 
-	height: 150px;
+	width:100%;
 
 }
 
@@ -74,7 +64,7 @@ body {
 
 #C {
 
-	width: 65%;
+	width: 95vw;
 
 	min-height: 500px;
 
@@ -82,9 +72,11 @@ body {
 
 	background-color: #d5edf5;
 
+	/* margin-top:10px; */
+
 	border: solid 2px #7db4e6;
 
-	margin: 10px 0 8px 8px;
+	margin: 10px auto;
 
 }
 
@@ -264,7 +256,7 @@ hr {
 .game_name_1_2::after {
 	/* ドロップシャドウを少し斜めに配置して、立体感を出す */
 	content: "";
-	//display:block;
+	/* display:block; */
 	position: absolute;
 	z-index: -1;
 	bottom: 5px;

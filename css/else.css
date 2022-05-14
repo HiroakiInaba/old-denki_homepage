@@ -35,25 +35,12 @@
 }
 
 
-
-
-.body {
-
-	font-family: FontAwesome;
-
-	margin: 0;
-
-}
-
-
-
-
 body {
-
+	font-family: FontAwesome;
+	margin: 0;
 	width: 100%;
-
 	margin: 0 auto;
-
+	background-color: #efeeee
 }
 
 
@@ -61,7 +48,7 @@ body {
 
 #A {
 
-	height: 150px;
+	width:100%;
 
 }
 
@@ -91,9 +78,9 @@ body {
 
 #C {
 
-	width: 65%;
+	width: 95vw;
 
-	min-height: 300px;
+	min-height: 500px;
 
 	height: auto;
 
@@ -103,7 +90,7 @@ body {
 
 	border: solid 2px #7db4e6;
 
-	margin: 10px 0 8px 8px;
+	margin: 10px auto;
 
 }
 

@@ -1,15 +1,16 @@
 "use strict"
 
 function header(){
-	let url = location.href;
-	let result = url.split("denki_homepage");
+	let url = location.href;//今いるとこのURLを取得する。
+	let result = url.split("denki_homepage");//denki_homepageでsplitする。
 	let pass;
 	let backpass;
-	if (result[1].indexOf("html/") > -1){
-		pass = "./";
-		backpass = "../";
+	//https://hiropen1414.github.io/denki_homepage/html/game.htmlこんな感じのurl
+	if (result[1].indexOf("html/") > -1){//もしsplitした結果、urlの後ろが/html/(htmlはディレクトリ)なら、if分が０以上を返す。
+		pass = "./";//即ちいまいる場所はhtmlディレクトリの中にいるので、他のファイルを参照するときには./~.htmlを、
+		backpass = "../";//photoディレクトリやらindex.htmlは一つ上のディレクトリにあるので"../"を設定する。
 	} else {
-		pass = "./html/";
+		pass = "./html/";//さっきの逆。今はhtmlディレクトリにいないので、参照するファイルのpassに./html/を追加する。
 		backpass = "./";
 	}
 	// alert(backpass);
@@ -48,6 +49,6 @@ function header(){
 '			</li>'+
 '		</ul>'+
 '	</div>'+
-'</header>"'
+'</header>'
 }
 header();
