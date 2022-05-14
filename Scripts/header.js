@@ -5,7 +5,7 @@ function header(){
 	"<div class='header_1'>"+
 		'<img src="../photos/header_.png" class="header">'+
 		'<ul class="ddmenu">'+
-			'<li><a href="./index.html" target="_self">HOME</a></li>'+
+			'<li><a href="index.html" target="_self">HOME</a></li>'+
 			'<li><a href="#" target="_self">作品一覧</a>'+
 '				<ul type="sqare">'+
 '					<li><a href="./game.html" target="_self">ゲーム作品</a></li>'+
