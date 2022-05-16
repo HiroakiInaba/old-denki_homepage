@@ -70,7 +70,7 @@ hr {
 	text-align: center;
 	background-color: white;
 	float: inline-start;
-	margin: -1.5vmin 0 0.8vmin 0.8vmin;
+	margin: 10vmin 0 0.8vmin 0.8vmin;
 	font-size: 4vmin;
 	font-family: 'my';
 	/* text-shadow: 4px 4px 5px rgba(0,0,0,0.5); */
@@ -125,7 +125,7 @@ hr {
 }
 
 .time_game .content {
-	position: relative;
+	position: relatie;
 	width: 45vmin;
 	text-align: center;
 	background-color: #e7fbe4;
