@@ -44,9 +44,9 @@ hr {
 }
 
 .image_vw {
-	width: 40vw;
+	width:40vmin/*40vw*/;
 	margin: 5px;
-	height: 34vw;
+	height: 34vmin;
 	margin-top: 5vw;
 }
 
