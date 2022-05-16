@@ -13,7 +13,7 @@
 
 #A {
 
-	width: 95vw;
+	width: 95vmin;
 
 	min-height: 500px;
 
@@ -39,7 +39,7 @@ hr {
 }
 
 .game_name_1_4 {
-	margin: 3vw;
+	margin: 3vmin;
 	display: flex;
 }
 
@@ -47,20 +47,20 @@ hr {
 	width:40vmin/*40vw*/;
 	margin: 5px;
 	height: 34vmin;
-	margin-top: 5vw;
+	margin-top: 5vmin;
 }
 
 
 .discription {
 	position: relative;
 	margin: auto;
-	margin-top: -5vw;
+	margin-top: -5vmin;
 }
 
 .discription h4 {
-	font-size: 5vw;
+	font-size: 5vmin;
 	text-align: center;
-	height: 5vw;
+	height: 5vmin;
 	position: relative;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -70,20 +70,20 @@ hr {
 	text-align: center;
 	background-color: white;
 	float: inline-start;
-	margin: -1.5vw 0 0.8vw 0.8vw;
-	font-size: 4vw;
+	margin: -1.5vmin 0 0.8vmin 0.8vmin;
+	font-size: 4vmin;
 	font-family: 'my';
 	/* text-shadow: 4px 4px 5px rgba(0,0,0,0.5); */
 	padding: 0.4em 0.5em;
 	/*文字の上下 左右の余白*/
 	background: #effac3;
 	/*背景色*/
-	border-left: solid 0.5vw #fd6a02;
-	border-right: solid 0.5vw #fd6a02;
+	border-left: solid 0.5vmin #fd6a02;
+	border-right: solid 0.5vmin #fd6a02;
 	/*左線*/
-	border-bottom: solid 0.3vw #d7d7d7;
+	border-bottom: solid 0.3vmin #d7d7d7;
 	/*下線*/
-	height: 5vw;
+	height: 5vmin;
 	position: relative;
 	z-index: 1;
 }
@@ -93,51 +93,51 @@ hr {
 	text-align: center;
 	background-color: white;
 	float: inline-start;
-	margin: 5vw 0 0.8vw 0.8vw;
-	font-size: 3vw;
+	margin: 5vmin 0 0.8vmin 0.8vmin;
+	font-size: 3vmin;
 	font-family: 'my';
 	/* text-shadow: 4px 4px 5px rgba(0,0,0,0.5); */
 	padding: 0.4em 0.5em;
 	/*文字の上下 左右の余白*/
 	background: #effac3;
 	/*背景色*/
-	border-left: solid 0.5vw #28ff2fa4;
-	border-right: solid 0.5vw #28ff2fa4;
+	border-left: solid 0.5vmin #28ff2fa4;
+	border-right: solid 0.5vmin #28ff2fa4;
 	/*左線*/
-	border-bottom: solid 0.3vw #d7d7d7;
+	border-bottom: solid 0.3vmin #d7d7d7;
 	/*下線*/
 
-	height: 2.5vw;
+	height: 2.5vmin;
 	position: relative;
 	z-index: 1;
 }
 
 .dis_game .content {
 	position: relative;
-	width: 45vw;
+	width: 45vmin;
 	text-align: center;
 	background-color: #f3f7ec;
 	border: solid 1px #7c5f5a8d;
-	margin-left: 1vw;
-	margin-top: -1vw;
+	margin-left: 1vmin;
+	margin-top: -1vmin;
 	z-index: 0;
-	font-size: 3vw;
+	font-size: 3vmin;
 }
 
 .time_game .content {
 	position: relative;
-	width: 45vw;
+	width: 45vmin;
 	text-align: center;
 	background-color: #e7fbe4;
 	border: solid 1px #7c5f5a8d;
-	margin-left: 1vw;
-	margin-top: -1vw;
+	margin-left: 1vmin;
+	margin-top: -1vmin;
 	z-index: 0;
-	font-size: 3vw;
+	font-size: 3vmin;
 }
 
 .game_link {
 	position: relative;
 	margin: auto;
-	font-size: 3vw;
+	font-size: 3vmin;
 }
