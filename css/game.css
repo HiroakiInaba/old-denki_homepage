@@ -44,6 +44,7 @@ hr {
 }
 
 .image_vw {
+	padding-top: 4vw;
 	width:40vmin/*40vw*/;
 	margin: 5px;
 	height: 34vmin;
