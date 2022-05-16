@@ -1,44 +1,14 @@
 h1 {
 	color: black;
-}
-
-h1 {
 	background-color: white;
-}
-
-h1 {
 	float: inline-start;
-}
-
-h1 {
 	margin: 8px 0 8px 8px;
-}
-
-h1 {
 	font-weight: normal;
-}
-
-h1 {
 	font-size: 32px;
-}
-
-h1 {
 	font-family: 'Lobster', cursive;
-}
-
-h1 {
 	padding: 0.4em 0.5em;
-}
-
-h1 {
 	background: #d5edf5;
-}
-
-h1 {
 	border-left: solid 5px #7db4e6;
-}
-
-h1 {
 	border-bottom: solid 3px #d7d7d7;
 }
 
@@ -55,29 +25,8 @@ body {
 	background-color: #efeeee
 }
 
+
 #A {
-
-	width: 100%;
-	/*position :absolute;*/
-}
-
-#B {
-
-	width: auto;
-
-
-	height: auto;
-
-	background-color: #d5edf5;
-
-	float: right;
-
-	margin: 2px 0 8px 8px;
-
-}
-
-
-#C {
 
 	width: 95vw;
 
@@ -94,214 +43,6 @@ body {
 	margin: 10px auto;
 
 }
-
-#D {
-
-	height: 130px;
-
-	background-color: #d5edf5;
-
-	/* margin-top:10px; */
-
-	border: solid 2px #7db4e6;
-
-	margin: 8px 0 8px 8px;
-
-}
-
-
-
-
-.breadcrumb {
-
-	margin: 0;
-
-	padding: 1.1em 1em;
-
-	list-style: none;
-
-	background: #d5edf5;
-
-	overflow: hidden;
-
-	margin: 8px 0 8px 8px;
-
-}
-
-.breadcrumb li {
-
-	display: inline;
-	/*横に並ぶように*/
-
-	list-style: none;
-
-}
-
-.breadcrumb li:after {
-
-	/* >を表示*/
-
-	font-family: FontAwesome;
-
-	content: '\f101';
-
-	padding: 0 0.2em;
-
-	color: #8186a0;
-
-}
-
-.breadcrumb li:last-child:after {
-
-	content: '';
-
-}
-
-.breadcrumb li a {
-
-	text-decoration: none;
-
-	color: #273376;
-
-}
-
-.breadcrumb li:first-child a:before {
-	/*家アイコンに*/
-
-	font-family: FontAwesome;
-
-	/* content: '\fa-home'; */
-
-	font-weight: normal;
-
-	font-size: 1.1em;
-
-}
-
-.breadcrumb li a:hover {
-
-	text-decoration: underline;
-
-}
-
-
-
-
-.game {
-
-	margin: 8px 0 0 4px;
-
-}
-
-.from_home_to_game {
-
-	margin: 0 0 8px 8px;
-
-}
-
-
-
-
-.music {
-
-	margin: 8px 0 0 4px;
-
-}
-
-
-
-
-.from_home_to_music {
-
-	margin: 0 0 8px 8px;
-
-}
-
-
-
-
-.else {
-
-	margin: 8px 0 0 4px;
-
-}
-
-
-
-
-.from_home_to_else {
-
-	margin: 0 0 8px 8px;
-
-}
-
-
-
-
-.box28 {
-
-	position: relative;
-
-	margin: 2em 0;
-
-	padding: 25px 10px 7px;
-
-	border: solid 2px #7db4e6;
-
-}
-
-
-
-
-.box28 .box-title {
-
-	position: absolute;
-
-	/*display: inline-block;*/
-
-	top: -2px;
-
-	left: -2px;
-
-	padding: 0 9px;
-
-	height: 25px;
-
-	line-height: 25px;
-
-	font-size: 17px;
-
-	background: #d5edf5;
-
-	color: #7db4e6;
-
-	font-weight: bold;
-
-	border: solid 2px #7db4e6;
-
-}
-
-.js-animation {
-	opacity: 0;
-	visibility: hidden;
-	transform: translateY(40px);
-	transition: all 1s;
-}
-
-.js-animation.is-show {
-	opacity: 1;
-	visibility: visible;
-	transform: translateY(0px);
-}
-
-.box28 p {
-
-	margin: 0;
-
-	padding: 0;
-
-}
-
 
 .dis {
 	background-size: contain;
@@ -336,7 +77,7 @@ body {
 	padding: 0.5em 0.5em;
 	background: #b6e9ff;
 	color: #393939;
-	margin: 2em 0 0 0;
+	margin: 8px 0 0 4px;
 }
 
 .game:before {
@@ -356,6 +97,7 @@ body {
 	padding: 0.35em 0.5em;
 	background: #5aff19;
 	color: #393939;
+	margin: 8px 0 0 4px;
 }
 
 .music:before {
@@ -375,6 +117,7 @@ body {
 	padding: 0.35em 0.5em;
 	background: #fff450;
 	color: #393939;
+	margin: 8px 0 0 4px;
 }
 
 .else:before {
@@ -389,10 +132,6 @@ body {
 	border-bottom-color: #b2ddf0;
 }
 
-h3 {
-	text-align: center;
-}
-
 .boxa {
 	position: relative;
 	background: #fff0cd;
@@ -400,7 +139,6 @@ h3 {
 	border: dashed 2px white;
 	padding: 0.2em 1em;
 	margin: 0.2em 1em;
-
 	color: #454545;
 }
 

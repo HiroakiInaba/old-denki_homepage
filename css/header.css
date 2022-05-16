@@ -1,21 +1,21 @@
 .header_1 {
 	background-color: rgb(255, 255, 255);
-	border-top: solid 20px #010045;
+	border-top: solid 1vw #010045;
 	display: flex;
 }
 
 .header {
-	width: 30vw;
-	height: auto;
+	width: 20vw;
+	height: 5vw;
 	margin: 10px;
 }
 
 ul.ddmenu {
-	height: auto;
-	width: 100vw;
-	margin: 20px, 0, 0, 0;
+	height: 5vw;
+	width: 80vw;
+	margin: 5vw, 0, 0, 0;
 	/* メニューバー外側の余白(ゼロ) */
-	padding: 0px 0px 0px 80px;
+	padding: 0px 0px 0px 1vw;
 	/* メニューバー内側の余白(左に15px) */
 	z-index: 10;
 }
@@ -30,15 +30,15 @@ ul.ddmenu li {
 	/* ★リストの先頭記号を消す */
 	position: relative;
 	/* ★サブメニュー表示の基準位置にする */
-	width: 50vw;
-	height: auto;
+	width: 5vw;
+	height: 5vw;
 }
 
 ul.ddmenu a {
 	/*background-color: #b1f1ff;  メニュー項目の背景色(濃い赤色) */
 	color: rgb(0, 0, 0);
 	/* メニュー項目の文字色(白色) */
-	line-height: 60px;
+	line-height: 5vw;
 	/* メニュー項目のリンクの高さ(40px) */
 	text-align: center;
 	/* メインメニューの文字列の配置(中央寄せ) */
@@ -48,8 +48,10 @@ ul.ddmenu a {
 	/* 太字にする */
 	display: block;
 	/* ★項目内全域をリンク可能にする */
-	height: auto;
+	height: 5vw;
 	width: 100%;
+	font-size:2vw;
+	white-space: nowrap;
 }
 
 ul.ddmenu a:hover {
@@ -57,6 +59,7 @@ ul.ddmenu a:hover {
 	/* メニュー項目にマウスが載ったときの背景色(淡いピンク) */
 	color: #dd0000;
 	/* メニュー項目にマウスが載ったときの文字色(濃い赤色) */
+
 }
 
 /* ---------------------------------- */
@@ -65,7 +68,9 @@ ul.ddmenu a:hover {
 /* ---------------------------------- */
 ul.ddmenu li:hover ul {
 	display: block;
+	width:auto;
 	/* ★マウスポインタが載っている項目の内部にあるリストを表示する */
+
 }
 
 /* -------------------- */
@@ -97,15 +102,16 @@ ul.ddmenu ul li {
 
 ul.ddmenu ul li a {
 	
-	line-height: 55px;
+	line-height: 5vw;
 	/* サブメニュー1項目の高さ(35px) */
 	text-align: left;
 	/* 文字列の配置(左寄せ) */
-	padding-left: 15px;
+	padding-left: 1vw;
 	/* 文字列前方の余白(5px) */
 	font-weight: normal;
 	/* 太字にはしない */
 	width:auto;
+	
 }
 
 ul.ddmenu ul li a:hover {
@@ -118,7 +124,7 @@ ul.ddmenu ul li a:hover {
 
 ul.ddmenu :before {
 	display: block;
-	padding-top: 75%;
+	padding-top: 55%;
 }
 
 ul.ddmenu li {
