@@ -46,22 +46,23 @@ body {
 
 .dis {
 	background-size: contain;
-	width: 40%;
+	width: 40vw;
+	font-size:3vw;
 	color: #7db4e6;
 	/*文字色*/
 	padding: 0.5em 2em 0.5em 0.4em;
 	/*文字周りの余白*/
 	/*display: inline-block;/*おまじない*/
-	line-height: 1.4;
+	line-height: 3vw;
 	/*行高*/
 	background: #FFFF66;
 	/*背景色*/
 	vertical-align: middle;
-	border-radius: 25px 0px 0px 25px;
+	border-radius: 5vw 0px 0px 5vw;
 	/*左側の角を丸く*/
 
-	border: solid 1px #7db4e6;
-	margin: 10px auto;
+	border: solid 0.1vw #7db4e6;
+	margin: 3vw auto;
 	text-align: center;
 }
 
@@ -77,7 +78,7 @@ body {
 	padding: 0.5em 0.5em;
 	background: #b6e9ff;
 	color: #393939;
-	margin: 8px 0 0 4px;
+	margin: 5vw 0 0, 0;
 }
 
 .game:before {
@@ -85,8 +86,8 @@ body {
 	position: absolute;
 	top: -16px;
 	left: 0;
-	width: -webkit-calc(100% - 16px);
-	width: calc(100% - 16px);
+	width: -webkit-calc(100% - 2vw);
+	width: calc(100% - 2vw);
 	height: 0;
 	border: solid 8px transparent;
 	border-bottom-color: #b2ddf0;
@@ -97,7 +98,7 @@ body {
 	padding: 0.35em 0.5em;
 	background: #5aff19;
 	color: #393939;
-	margin: 8px 0 0 4px;
+	margin: 5vw 0 0 0;
 }
 
 .music:before {
@@ -105,8 +106,8 @@ body {
 	position: absolute;
 	top: -16px;
 	left: 0;
-	width: -webkit-calc(100% - 16px);
-	width: calc(100% - 16px);
+	width: -webkit-calc(100% - 2vw);
+	width: calc(100% - 2vw);
 	height: 0;
 	border: solid 8px transparent;
 	border-bottom-color: #b2ddf0;
@@ -117,7 +118,7 @@ body {
 	padding: 0.35em 0.5em;
 	background: #fff450;
 	color: #393939;
-	margin: 8px 0 0 4px;
+	margin: 5vw 0 0 0;
 }
 
 .else:before {
@@ -125,8 +126,8 @@ body {
 	position: absolute;
 	top: -16px;
 	left: 0;
-	width: -webkit-calc(100% - 16px);
-	width: calc(100% - 16px);
+	width: -webkit-calc(100% - 2vw);
+	width: calc(100% - 2vw);
 	height: 0;
 	border: solid 8px transparent;
 	border-bottom-color: #b2ddf0;
@@ -138,15 +139,17 @@ body {
 	box-shadow: 0px 0px 0px 5px #fff0cd;
 	border: dashed 2px white;
 	padding: 0.2em 1em;
-	margin: 0.2em 1em;
+	margin:auto;
 	color: #454545;
+	width:70vw;
+	margin-bottom:6vw;
 }
 
 .boxa:after {
 	position: absolute;
 	content: '';
-	right: -7px;
-	top: -7px;
+	right: -1vw;
+	top: -1vw;
 	border-width: 0 15px 15px 0;
 	border-style: solid;
 	border-color: #ffdb88 #fff #ffdb88;
@@ -154,7 +157,8 @@ body {
 }
 
 .boxa p {
-	margin: 0;
+	margin: 2vw auto;
 	padding: 0;
 	text-align: center;
+	font-size:2vw;
 }
