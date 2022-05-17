@@ -66,7 +66,7 @@ function footer(){
 		backpass = "./";
 	}
 	// alert(backpass);
-	document.getElementById("header").innerHTML = '<header>'+
+	document.getElementById("footer").innerHTML = '<footer>'+
 '	<div class="header_1">'+
 `		<img src="${backpass}photos/header_.png"} class="header">`+
 '		<ul class="ddmenu">'+
@@ -101,6 +101,6 @@ function footer(){
 '			</li>'+
 '		</ul>'+
 '	</div>'+
-'</header>'
+'</footer>'
 }
 header();
