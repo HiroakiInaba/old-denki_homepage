@@ -16,7 +16,7 @@ function header(){
 	// alert(backpass);
 	document.getElementById("header").innerHTML = '<header>'+
 '	<div class="header_1">'+
-`		<img src="${backpass}photos/header_.png"} class="header">`+
+`		<img src="${backpass}photos/header_.png" alt="[Get Picture]"} class="header">`+
 '		<ul class="ddmenu">'+
 `			<li><a href="${backpass}index.html" target="_self">HOME</a></li>`+
 '			<li><a href="#" target="_self">作品一覧</a>'+
