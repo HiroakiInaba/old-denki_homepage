@@ -1,0 +1,59 @@
+.footer_1{
+	background-color: rgb(38, 38, 38);
+	width:100vw;
+	height:40vh;
+	bottom:0;
+}
+
+.footer_1 li{
+	display:inline-block;
+	margin-top:1vmin;
+	padding-right:25vmin;
+}
+
+.footer_1 li a{
+	padding-top:1vmin;
+	color:rgb(211, 211, 211);
+	font-size: 3vmin;
+}
+
+.footer_1 li p{
+	padding-top:1vmin;
+	color:rgb(211, 211, 211);
+	font-size: 3vmin;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+
+.footer_{
+	position:absolute;
+	width:30vmin;
+	height:10vmin;
+	margin :5vmin 5vmin;
+}
+
+.tw{
+	float:right;
+	margin-right:35vmin;
+	width:12.5vmin;
+	height:12.5vmin;
+}
+.you{
+	display: flex;
+	margin-left:85vw;
+	width:12.5vmin;
+	height:12.5vmin;
+}
+
+.op,.op_2{
+	color:rgb(211, 211, 211);
+	margin-left:50vmin;
+	margin-bottom: 20vmin;
+	font-size:3vmin;
+}
