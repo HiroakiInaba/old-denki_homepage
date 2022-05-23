@@ -87,5 +87,6 @@ function footer(){
 '	</div>'+
 '</footer>');
 }
-header();
+
 footer();
+header();
