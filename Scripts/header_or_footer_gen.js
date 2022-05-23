@@ -83,7 +83,7 @@ function footer(){
 '		<a href="https://www.youtube.com/channel/UC8mW4b5AgJsmDdX_oxM6t-w" target="_blank">'+
 `			<img src="${backpass}photos/youtube.png"} class="you">`+
 '		</a>'+
-'		<p class = "op">〒191-8506 東京都日野市程久保2-1-1 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Gmail:meisei.denkibu@gmail.com<br>Ponte棟	325号室&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;製作者: 玉村雄大/根本俊佑/稲葉浩晃'+
+'		<p class = "op">〒191-8506 東京都日野市程久保2-1-1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gmail:meisei.denkibu@gmail.com<br>Ponte棟	325号室</p>'+
 '	</div>'+
 '</footer>');
 }

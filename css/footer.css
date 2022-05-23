@@ -1,4 +1,4 @@
-.footer_1{
+footer{
 	background-color: rgb(38, 38, 38);
 	width:100vw;
 	height:40vh;
@@ -56,4 +56,5 @@ a:hover{
 	margin-left:50vmin;
 	margin-bottom: 20vmin;
 	font-size:3vmin;
+	word-break: break-all;
 }
