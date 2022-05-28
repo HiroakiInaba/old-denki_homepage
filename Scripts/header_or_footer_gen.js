@@ -73,7 +73,7 @@ function footer(){
 '		<ul class="list">'+
 `			<li><a href="${backpass}index.html" target="_self">・トップページ</a></li>`+
 `			<li><a href="#" target="_self">・サイトマップ</a></li>`+
-`			<li><a href="#" target="_self">・お問い合わせ</a></li>`+
+`			<li><a href="${pass}inquiry.html" target="_self">・お問い合わせ</a></li>`+
 `			<li><p>SNS</p></li>`+
 '		</ul>'+
 `		<img src="${backpass}photos/download.jpg"} class="footer_">`+
