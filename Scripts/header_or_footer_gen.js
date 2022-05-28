@@ -78,10 +78,10 @@ function footer(){
 '		</ul>'+
 `		<img src="${backpass}photos/download.jpg"} class="footer_">`+
 '		<a href="https://twitter.com/meisei_denkibu" target="_blank">'+
-`			<img src="${backpass}photos/twitter_logo.png"} class="tw">`+
+`			<img src="${backpass}photos/twitter_logo.png"} title="Twitterへジャンプする" class="tw">`+
 '		</a>'+
 '		<a href="https://www.youtube.com/channel/UC8mW4b5AgJsmDdX_oxM6t-w" target="_blank">'+
-`			<img src="${backpass}photos/youtube.png"} class="you">`+
+`			<img src="${backpass}photos/youtube.png"} title="Youtubeへジャンプする" class="you">`+
 '		</a>'+
 '		<p class = "op">〒191-8506 東京都日野市程久保2-1-1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gmail:meisei.denkibu@gmail.com<br>Ponte棟	325号室</p>'+
 '	</div>'+
