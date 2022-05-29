@@ -45,7 +45,7 @@ function header(){
 '			<li><a href="#">お問い合わせ</a>'+
 '				<ul type="sqare">'+
 '					<li><a href="#">よくあるご質問</a></li>'+
-'					<li><a href="#">お問い合わせ先</a></li>'+
+`					<li><a href="${pass}inquiry.html" target="_self">お問い合わせ先</a></li>`+
 '				</ul>'+
 '			</li>'+
 '		</ul>'+
