@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'my';
+	src: url("./font/かんじゅくゴシック.otf");
+}
+
+.body {
+	font-family: FontAwesome;
+	margin: 0;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #ffffff
+}
+
+#A {
+
+	width: 95vmin;
+
+	min-height: 500px;
+
+	height: auto;
+
+	margin: 10px auto;
+
+}
+
+h1{
+	padding-top:5vmin;
+	padding-bottom:5vmin;
+	text-align: center;
+	font-size: 6vmin;
+	color:rgb(41, 41, 41);
+}
+
+.q_a{
+	width:100vw;
+	min-height: 500px;
+	height:auto;
+}
+
+.q_a span{
+	display: inline-block;
+	margin-left:10vmin;
+	margin-right:5vmin;
+	border-radius: 50%;
+	width:8vmin;
+	height:8vmin;
+	text-align: center;
+	margin-top:1vmin;
+	font-size: 5vmin;
+}
+
+.q_{
+	background-color: rgb(105, 105, 107);
+	color:#ffffff;
+}
+
+.a_{
+	background-color: rgb(37, 255, 124);
+	color:#ffffff;
+}

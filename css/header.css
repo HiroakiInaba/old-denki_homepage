@@ -101,7 +101,7 @@ ul.ddmenu ul li {
 }
 
 ul.ddmenu ul li a {
-	
+	pointer-events: auto;
 	line-height: 5vw;
 	/* サブメニュー1項目の高さ(35px) */
 	text-align: left;
@@ -115,7 +115,7 @@ ul.ddmenu ul li a {
 }
 
 ul.ddmenu ul li a:hover {
-	
+
 	background-color: #ffff80;
 	/* サブメニュー項目にマウスが載ったときの背景色(淡い黄色) */
 	color: #005500;
