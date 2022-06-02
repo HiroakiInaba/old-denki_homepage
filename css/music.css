@@ -21,6 +21,10 @@ body {
 	background-color: #efeeee
 }
 
+iframe{
+	border:0;
+}
+
 #A {
 
 	width: 95vw;
