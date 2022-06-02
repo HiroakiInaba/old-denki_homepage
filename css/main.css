@@ -53,8 +53,9 @@ body {
 .dis {
 	background-size: contain;
 	width: 40vw;
+	height:10vmin;
 	font-size:3vw;
-	color: #7db4e6;
+	color: #000000;
 	/*文字色*/
 	padding: 0.5em 2em 0.5em 0.4em;
 	/*文字周りの余白*/
@@ -63,20 +64,23 @@ body {
 	/*行高*/
 	background: #FFFF66;
 	/*背景色*/
-	vertical-align: middle;
 	border-radius: 5vw 0px 0px 5vw;
 	/*左側の角を丸く*/
 
 	border: solid 0.1vw #7db4e6;
 	margin: 3vw auto;
 	text-align: center;
+	display: flex;
 }
-
 
 .dis:before {
 	content: '●';
-	color: white;
-	margin-right: 8px;
+	color: rgb(255, 247, 247);
+	margin:auto;
+}
+.dis p{
+	margin:auto;
+	font-size: 3.5vmin;
 }
 
 .game {

@@ -34,7 +34,9 @@
 
 }
 
-
+.title_else{
+	font-size: 5vmin;
+}
 body {
 	font-family: FontAwesome;
 	margin: 0;
