@@ -76,9 +76,9 @@ function footer() {
 		`			<li><a href="${pass}inquiry.html" target="_self">・お問い合わせ</a></li>` +
 		`			<li><p>SNS</p></li>` +
 		'		</ul>' +
-		`		<img src="${backpass}photos/download.jpg"} class="footer_">` +
+		`		<img src="${backpass}photos/download.jpg"} class="footer_" alt="">` +
 		'		<a href="https://twitter.com/meisei_denkibu" target="_blank">' +
-		`			<img src="${backpass}photos/twitter_logo.png"} title="Twitterへジャンプする" class="tw">` +
+		`			<img src="${backpass}photos/twitter_logo.png"} title="Twitterへジャンプする" class="tw" alt="">` +
 		'		</a>' +
 		'		<a href="https://www.youtube.com/channel/UC8mW4b5AgJsmDdX_oxM6t-w" target="_blank">' +
 		`			<img src="${backpass}photos/youtube.png"} title="Youtubeへジャンプする" class="you" alt="">` +
