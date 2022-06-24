@@ -23,38 +23,101 @@
 
 }
 
-h1{
-	padding-top:5vmin;
-	padding-bottom:5vmin;
+h1 {
+	padding-top: 5vmin;
+	padding-bottom: 5vmin;
 	text-align: center;
 	font-size: 6vmin;
-	color:rgb(41, 41, 41);
+	color: rgb(41, 41, 41);
 }
 
-.q_a{
-	width:100vw;
-	min-height: 500px;
-	height:auto;
+.q_a {
+	width: 100vw;
+	height: auto;
+	border-bottom: 1px solid lightgray;
 }
 
-.q_a span{
+.q_a span {
 	display: inline-block;
-	margin-left:10vmin;
-	margin-right:5vmin;
+	margin-left: 2vmin;
+	margin-right: 5vmin;
 	border-radius: 50%;
-	width:8vmin;
-	height:8vmin;
+	width: 8vmin;
+	height: 8vmin;
 	text-align: center;
-	margin-top:1vmin;
-	font-size: 5vmin;
+	margin-top: 1vmin;
+	font-size: 10vmin;
 }
 
-.q_{
-	background-color: rgb(105, 105, 107);
-	color:#ffffff;
+.q_sign {
+	color: crimson;
 }
 
-.a_{
-	background-color: rgb(37, 255, 124);
-	color:#ffffff;
+.q_a input {
+	display: none;
+}
+
+label {
+	display: block;
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+dt {
+	margin-left: 20vmin;
+	margin-right: 20vmin;
+	font-size: 6vmin;
+	position: relative;
+	z-index: 1;
+}
+
+.a_sign {
+	color: aqua;
+}
+
+dd {
+	margin-left: 20vmin;
+	margin-right: 20vmin;
+	font-size: 6vmin;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transform: translateY(-2em);
+	visibility: hidden;
+}
+
+dt::before,dd::before {
+	position: absolute;
+	top: 50%;
+	left: 0.5em;
+	transform: translateY(-50%);
+	font-size: 2em;
+}
+
+dt{
+	position :relative;
+	z-index:1;
+}
+
+dt::after {
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	right:-1.5vmin;
+	width: 0;
+	height: 0;
+	border-top: 3vmin solid darkgray;
+	border-left: 2vmin solid transparent;
+	border-right:2vmin solid transparent;
+	content: "";
+}
+
+.q_a> label >input:checked ~ label > dd {
+	position: relative;
+	visibility: visible;
+	transform: translateY(0px);
+	transition: 0.5s;
 }
