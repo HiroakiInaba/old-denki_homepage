@@ -32,25 +32,25 @@ h1 {
 }
 
 .q_a {
-	width: 100vw;
 	height: auto;
-	border-bottom: 1px solid lightgray;
+	border-bottom: 1px dashed lightgray;
+	margin: 3vmin 5vmin;
 }
 
 .q_a span {
 	display: inline-block;
 	margin-left: 2vmin;
-	margin-right: 5vmin;
-	border-radius: 50%;
-	width: 8vmin;
-	height: 8vmin;
-	text-align: center;
-	margin-top: 1vmin;
-	font-size: 10vmin;
+	margin-right: 3vmin;
+	font-size: 6vmin;
 }
 
 .q_sign {
 	color: crimson;
+}
+
+.a_sign {
+	transition: 0.5s;
+	color: transparent;
 }
 
 .q_a input {
@@ -67,57 +67,80 @@ label {
 }
 
 dt {
-	margin-left: 20vmin;
-	margin-right: 20vmin;
-	font-size: 6vmin;
+	margin: auto;
+	font-size: 4vmin;
+	font-weight: bold;
 	position: relative;
 	z-index: 1;
 }
 
-.a_sign {
-	color: aqua;
-}
-
 dd {
-	margin-left: 20vmin;
-	margin-right: 20vmin;
-	font-size: 6vmin;
+	visibility: hidden;
+	margin: auto;
+	font-size: 4vmin;
 	position: absolute;
 	top: 0px;
-	left: 0px;
-	transform: translateY(-2em);
-	visibility: hidden;
-}
-
-dt::before,dd::before {
-	position: absolute;
-	top: 50%;
-	left: 0.5em;
-	transform: translateY(-50%);
-	font-size: 2em;
-}
-
-dt{
-	position :relative;
-	z-index:1;
+	left: 2vmin;
+	transform: translateY(-1.6em);
+	transition: 0.5s;
+	color: transparent;
 }
 
 dt::after {
 	display: inline-block;
 	position: relative;
 	top: 50%;
-	right:-1.5vmin;
+	right: -1.5vmin;
 	width: 0;
 	height: 0;
-	border-top: 3vmin solid darkgray;
+	/* border-top: 3vmin solid darkgray;
 	border-left: 2vmin solid transparent;
-	border-right:2vmin solid transparent;
-	content: "";
+	border-right:2vmin solid transparent; */
+	content: "▼";
+	color: darkgrey;
+	transform: translateY(0px);
+	transition: 0.5s;
 }
 
-.q_a> label >input:checked ~ label > dd {
+.q_a>label>input:checked+dt:after {
+	position: relative;
+	transition: 0.5s;
+	content: "▲";
+	color: rgb(255, 147, 147);
+}
+
+
+.q_a>label>input:checked~label>dd,.q_a>label>input:checked~label>dd>a>img {
 	position: relative;
 	visibility: visible;
 	transform: translateY(0px);
 	transition: 0.5s;
+	color: rgb(30, 30, 30);
+	border-top: 3px dotted rgba(79, 161, 255, 0.467);
+}
+
+.q_a>label>input:checked~label>dd>.a_sign {
+	position: relative;
+	visibility: visible;
+	transform: translateY(0px);
+	transition: 0.5s;
+	color: aqua;
+}
+
+.q_a>label>label>dd>ul>li {
+	margin: auto;
+}
+
+.map_ {
+	visibility: hidden;
+	display: flex;
+	margin: auto;
+	width: 112vmin;
+	height: 70vmin;
+	padding-bottom: 2vmin;
+}
+
+.quote {
+	font-size: 2vmin;
+	text-align: right;
 }

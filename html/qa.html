@@ -13,65 +13,33 @@
 </head>
 
 <body class="body">
-	<div id="header"></div>
+	<my-header></my-header>
 	<h1>よくあるご質問集(Q&A)</h1>
+	<qa-component question="電気部ってどんな活動をしてるんですか？" answer="電気部は、
+	<ul>
+		<li>Unity等を用いたゲーム制作</li>
+		<li>Aviutl等を用いたメディア作品制作</li>
+		<li>電子工作</li>
+		<li>webメディア作品制作</li>
+	</ul>
+	などを活動内容としています。">
+	</qa-component>
 
-	<dl class="q_a">
-		<label>
-			<input type="checkbox" id="QA_1">
-			<dt><span class="q_sign">Q: </span>~~~~~~~~~~~~~~~~~</dt>
-			<label class="dum">
-				<dd><span class="a_sign">A: </span>~~~~~~~~~~~~~~~~~</dd>
-			</label>
-		</label>
-	</dl>
-	<dl class="q_a">
-		<label>
-			<input type="checkbox" id="QA_1">
-			<dt><span class="q_sign">Q: </span>~~~~~~~~~~~~~~~~~</dt>
-			<label class="dum">
-				<dd><span class="a_sign">A: </span>~~~~~~~~~~~~~~~~~</dd>
-			</label>
-		</label>
-	</dl>
-	<dl class="q_a">
-		<label>
-			<input type="checkbox" id="QA_1">
-			<dt><span class="q_sign">Q: </span>~~~~~~~~~~~~~~~~~</dt>
-			<label class="dum">
-				<dd><span class="a_sign">A: </span>~~~~~~~~~~~~~~~~~</dd>
-			</label>
-		</label>
-	</dl>
-	<dl class="q_a">
-		<label>
-			<input type="checkbox" id="QA_1">
-			<dt><span class="q_sign">Q: </span>~~~~~~~~~~~~~~~~~</dt>
-			<label class="dum">
-				<dd><span class="a_sign">A: </span>~~~~~~~~~~~~~~~~~</dd>
-			</label>
-		</label>
-	</dl>
-	<dl class="q_a">
-		<label>
-			<input type="checkbox" id="QA_1">
-			<dt><span class="q_sign">Q: </span>~~~~~~~~~~~~~~~~~</dt>
-			<label class="dum">
-				<dd><span class="a_sign">A: </span>~~~~~~~~~~~~~~~~~</dd>
-			</label>
-		</label>
-	</dl>
-	<dl class="q_a">
-		<label>
-			<input type="checkbox" id="QA_1">
-			<dt><span class="q_sign">Q: </span>~~~~~~~~~~~~~~~~~</dt>
-			<label class="dum">
-				<dd><span class="a_sign">A: </span>~~~~~~~~~~~~~~~~~</dd>
-			</label>
-		</label>
-	</dl>
+	<qa-component question="活動日時とか活動場所とかを知りたいです。"
+		answer="活動日時は今現在は毎週水曜日18:00から行っている者が多いです。<br>ただコアタイムというものはありません。<br><br>活動場所については、対面活動が禁止されている現在は<br>Discordを用いてオンラインで活動をしています。">
+	</qa-component>
 
-	<div id="footer"></div>
+	<qa-component question="部室ってどこにあるんですか？" answer='電気部の部室はPonte棟の325号室です。
+	<a href="../photos/campusmap.jpg" target="_blank" title="拡大表示する">
+		<img src="../photos/campusmap.jpg" alt="map" class="map_">
+	</a>
+	<p class="quote">引用:明星大学 日野校のキャンパスマップ <a href="https://www.meisei-u.ac.jp/campus/hino.html"
+			target="_blank">https://www.meisei-u.ac.jp/campus/hino.html</a></p>''>
+	</qa-component>
+
+	<my-footer></my-footer>
 	<script src="../Scripts/header_or_footer_gen.js"></script>
+	<script src="../Scripts/Component.js"></script>
+
 
 </body>

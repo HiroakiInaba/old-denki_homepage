@@ -31,6 +31,28 @@ body {
 	font-size:4.5vmin;
 }
 
+.hoshitomo{
+	
+	display: block;
+	margin: auto;
+	padding-bottom:2vmin;
+	width:100vmin;
+	height:60vmin;
+}
+
+.top_photos{
+	background-color: #454545;
+	border-left:solid 10vmin  #000000ca;
+	border-right: solid 10vmin #000000ca;
+}
+
+.sides{
+	content:"<";
+	color:#efeeee;
+	width:200vmin;
+	height:3vmin;
+	vertical-align: middle;
+}
 
 #A {
 
