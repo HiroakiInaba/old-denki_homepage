@@ -23,38 +23,124 @@
 
 }
 
-h1{
-	padding-top:5vmin;
-	padding-bottom:5vmin;
+h1 {
+	padding-top: 5vmin;
+	padding-bottom: 5vmin;
 	text-align: center;
 	font-size: 6vmin;
-	color:rgb(41, 41, 41);
+	color: rgb(41, 41, 41);
 }
 
-.q_a{
-	width:100vw;
-	min-height: 500px;
-	height:auto;
+.q_a {
+	height: auto;
+	border-bottom: 1px dashed lightgray;
+	margin: 3vmin 5vmin;
 }
 
-.q_a span{
+.q_a span {
 	display: inline-block;
-	margin-left:10vmin;
-	margin-right:5vmin;
-	border-radius: 50%;
-	width:8vmin;
-	height:8vmin;
-	text-align: center;
-	margin-top:1vmin;
-	font-size: 5vmin;
+	margin-left: 2vmin;
+	margin-right: 3vmin;
+	font-size: 6vmin;
 }
 
-.q_{
-	background-color: rgb(105, 105, 107);
-	color:#ffffff;
+.q_sign {
+	color: crimson;
 }
 
-.a_{
-	background-color: rgb(37, 255, 124);
-	color:#ffffff;
+.a_sign {
+	transition: 0.5s;
+	color: transparent;
+}
+
+.q_a input {
+	display: none;
+}
+
+label {
+	display: block;
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+dt {
+	margin: auto;
+	font-size: 4vmin;
+	font-weight: bold;
+	position: relative;
+	z-index: 1;
+}
+
+dd {
+	visibility: hidden;
+	margin: auto;
+	font-size: 4vmin;
+	position: absolute;
+	top: 0px;
+	left: 2vmin;
+	transform: translateY(-1.6em);
+	transition: 0.5s;
+	color: transparent;
+}
+
+dt::after {
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	right: -1.5vmin;
+	width: 0;
+	height: 0;
+	/* border-top: 3vmin solid darkgray;
+	border-left: 2vmin solid transparent;
+	border-right:2vmin solid transparent; */
+	content: "▼";
+	color: darkgrey;
+	transform: translateY(0px);
+	transition: 0.5s;
+}
+
+.q_a>label>input:checked+dt:after {
+	position: relative;
+	transition: 0.5s;
+	content: "▲";
+	color: rgb(255, 147, 147);
+}
+
+
+.q_a>label>input:checked~label>dd,.q_a>label>input:checked~label>dd>a>img {
+	position: relative;
+	visibility: visible;
+	transform: translateY(0px);
+	transition: 0.5s;
+	color: rgb(30, 30, 30);
+	border-top: 3px dotted rgba(79, 161, 255, 0.467);
+}
+
+.q_a>label>input:checked~label>dd>.a_sign {
+	position: relative;
+	visibility: visible;
+	transform: translateY(0px);
+	transition: 0.5s;
+	color: aqua;
+}
+
+.q_a>label>label>dd>ul>li {
+	margin: auto;
+}
+
+.map_ {
+	visibility: hidden;
+	display: flex;
+	margin: auto;
+	width: 112vmin;
+	height: 70vmin;
+	padding-bottom: 2vmin;
+}
+
+.quote {
+	font-size: 2vmin;
+	text-align: right;
 }
