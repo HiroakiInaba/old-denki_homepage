@@ -13,7 +13,7 @@ class Question_Answer extends HTMLElement {
 			`				<dd><span class="a_sign">A: </span>${this.getAttribute("answer")}</dd>` +
 			'			</label>' +
 			'		</label>' +
-			'	</dl>'
+			'	</dl>';
 	}
 }
 
