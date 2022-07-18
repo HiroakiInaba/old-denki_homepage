@@ -13,7 +13,7 @@
 
 #A {
 
-	width: 95vmin;
+	max-width: 95%;
 
 	min-height: 500px;
 
@@ -29,26 +29,21 @@
 
 }
 
-.game_name_1_2 {
-	text-align: center;
-
-}
-
 hr {
 	border-top: 3px dashed;
 }
 
-.game_name_1_4 {
+.game_ {
 	margin: 3vmin;
 	display: flex;
 }
 
 .image_vw {
+	display:block;
 	padding-top: 4vw;
-	width:40vmin/*40vw*/;
-	margin: 5px;
-	height: 34vmin;
-	margin-top: 5vmin;
+	width:40%;
+	margin: auto;
+	height: 40%;
 }
 
 
@@ -56,6 +51,7 @@ hr {
 	position: relative;
 	margin: auto;
 	margin-top: -5vmin;
+	width:50%;
 }
 
 .discription h4 {
@@ -63,6 +59,8 @@ hr {
 	text-align: center;
 	height: 5vmin;
 	position: relative;
+	margin-top :5vh;
+	padding-bottom:5vh;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -70,9 +68,9 @@ hr {
 	color: black;
 	text-align: center;
 	background-color: white;
-	float: inline-start;
-	margin: 10vmin 0 0.8vmin 0.8vmin;
-	font-size: 4vmin;
+	/* float: inline-start; */
+	margin: auto;
+	font-size: 2vw;
 	font-family: 'my';
 	/* text-shadow: 4px 4px 5px rgba(0,0,0,0.5); */
 	padding: 0.4em 0.5em;
@@ -92,10 +90,12 @@ hr {
 .title_time {
 	color: black;
 	text-align: center;
+	
 	background-color: white;
-	float: inline-start;
-	margin: 5vmin 0 0.8vmin 0.8vmin;
-	font-size: 3vmin;
+	line-height: 70%;
+	/* float: inline-start; */
+	margin: auto;
+	font-size: 2vw;
 	font-family: 'my';
 	/* text-shadow: 4px 4px 5px rgba(0,0,0,0.5); */
 	padding: 0.4em 0.5em;
@@ -113,28 +113,31 @@ hr {
 	z-index: 1;
 }
 
-.dis_game .content {
+.dis_game > .content {
 	position: relative;
-	width: 45vmin;
+	width: 96%;
+	min-height:20vh;
 	text-align: center;
+	line-height: 250%;
 	background-color: #f3f7ec;
 	border: solid 1px #7c5f5a8d;
-	margin-left: 1vmin;
+	margin-left: 1vw;
 	margin-top: -1vmin;
 	z-index: 0;
-	font-size: 3vmin;
+	font-size: 2vw;
 }
 
 .time_game .content {
-	position: relatie;
-	width: 45vmin;
+	position: relative;
+	width: 96%;
 	text-align: center;
+	line-height: 250%;
 	background-color: #e7fbe4;
 	border: solid 1px #7c5f5a8d;
-	margin-left: 1vmin;
+	margin-left: 1vw;
 	margin-top: -1vmin;
 	z-index: 0;
-	font-size: 3vmin;
+	font-size: 2vw;
 }
 
 .game_link {
