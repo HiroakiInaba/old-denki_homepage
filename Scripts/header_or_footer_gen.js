@@ -32,17 +32,12 @@ class Myheader extends HTMLElement {
 			'			</li>' +
 			'			<li><a href="#" target="_self">未定</a>' +
 			'				<ul type="sqare">' +
-			// '					<li><a href="#">ハードウェア</a></li>'+
-			// '					<li><a href="#">ソフトウェア</a></li>'+
-			// '					<li><a href="#">ウェブサービス</a></li>'+
+
 			'				</ul>' +
 			'			</li>' +
 			'			<li><a href="#" target="_self">未定</a>' +
 			'				<ul type="sqare">' +
-			// '					<li><a href="#">会社概要</a></li>'+
-			// '					<li><a href="#">社長挨拶</a></li>'+
-			// '					<li><a href="#">沿革</a></li>'+
-			// '					<li><a href="#">所在地</a></li>'+
+			
 			'				</ul>' +
 			'			</li>' +
 			'			<li><a href="#">お問い合わせ</a>' +
