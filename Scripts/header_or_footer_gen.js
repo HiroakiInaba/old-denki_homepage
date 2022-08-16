@@ -37,7 +37,7 @@ class Myheader extends HTMLElement {
 			'			</li>' +
 			'			<li><a href="#" target="_self">未定</a>' +
 			'				<ul type="sqare">' +
-			
+
 			'				</ul>' +
 			'			</li>' +
 			'			<li><a href="#">お問い合わせ</a>' +
@@ -56,23 +56,28 @@ class Myheader extends HTMLElement {
 class Myfooter extends HTMLElement {
 	constructor() {
 		super();
-		this.innerHTML = '<footer>' +
-			'	<div class="footer_1">' +
+		this.innerHTML =
+			'<footer>' +
+			'	<div class = "footer_sns">' +
+			'	<p class = "sns">・SNS</p>' +
+			'		<a href="https://twitter.com/meisei_denkibu" target="_blank">' +
+			`		<img src="${backpass}photos/twitter_logo.png"} title="Twitterへジャンプする" class="tw" alt="">` +
+			'		</a>' +
+			'		<a href="https://www.youtube.com/channel/UC8mW4b5AgJsmDdX_oxM6t-w" target="_blank">' +
+			`		<img src="${backpass}photos/youtube.png"} title="Youtubeへジャンプする" class="you" alt="">` +
+			'		</a>' +
+			'	</div>' +
+			'	<div class="footer_link">' +
 			'		<ul class="list">' +
 			`			<li><a href="${backpass}index.html" target="_self">・トップページ</a></li>` +
 			`			<li><a href="#" target="_self">・サイトマップ</a></li>` +
 			`			<li><a href="${pass}inquiry.html" target="_self">・お問い合わせ</a></li>` +
-			`			<li><p>SNS</p></li>` +
 			'		</ul>' +
-			`		<img src="${backpass}photos/download.jpg"} class="footer_" alt="">` +
-			'		<a href="https://twitter.com/meisei_denkibu" target="_blank">' +
-			`			<img src="${backpass}photos/twitter_logo.png"} title="Twitterへジャンプする" class="tw" alt="">` +
-			'		</a>' +
-			'		<a href="https://www.youtube.com/channel/UC8mW4b5AgJsmDdX_oxM6t-w" target="_blank">' +
-			`			<img src="${backpass}photos/youtube.png"} title="Youtubeへジャンプする" class="you" alt="">` +
-			'		</a>' +
-			'		<p class = "op">〒191-8506 東京都日野市程久保2-1-1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gmail:meisei.denkibu@gmail.com<br>Ponte棟	325号室</p>' +
 			'	</div>' +
+
+			`	<img src="${backpass}photos/download.jpg"} class="footer_" alt="">` +
+		'	<p class = "op">〒191-8506 東京都日野市程久保2-1-1 Gmail:meisei.denkibu@gmail.com<br>Ponte棟325号室</p>' +
+			'	</di>' +
 			'</footer>'
 	}
 
