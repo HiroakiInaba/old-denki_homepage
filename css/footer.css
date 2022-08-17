@@ -82,7 +82,7 @@ footer p{
 
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1050px) {
 	.sns{
 		position: relative;
 		margin-left: 55vw;
