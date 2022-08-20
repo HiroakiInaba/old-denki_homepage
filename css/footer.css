@@ -1,9 +1,8 @@
 footer{
 	background-color: rgb(38, 38, 38);
-	width:100vw;
-	height:40vh;
+	width:100%;
+	height:45vh;
 	bottom:0;
-
 }
 
 .footer_link li{
@@ -79,6 +78,7 @@ footer p{
 	margin-top:9%;
 	font-size:3vmin;
 	word-break: break-all;
+	height:10px;
 
 }
 
@@ -125,7 +125,7 @@ footer p{
 .footer_{
 	position:absolute;
 	width:30vmin;
-	height:10vmin;
+	height:auto;
 	margin :5vmin 5vmin;
 }
 

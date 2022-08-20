@@ -8,7 +8,7 @@ class Question_Answer extends HTMLElement {
 		this.innerHTML = '<dl class="q_a">' +
 			'		<label>' +
 			'			<input type="checkbox" id="QA_6">' +
-			`			<dt><span class="q_sign">Q: </span>${this.getAttribute("question")}</dt>` +
+			`			<dt><span class="q_sign">Q<!--<span class="num">--></span>: </span>${this.getAttribute("question")}</dt>` +//問題番号を表示させたかったらここのコメントアウトを消す。
 			'			<label class="dum">' +
 			`				<dd><span class="a_sign">A: </span>${this.getAttribute("answer")}</dd>` +
 			'			</label>' +

@@ -7,20 +7,13 @@
 	font-family: FontAwesome;
 	margin: 0;
 	width: 100%;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	background-color: #ffffff
 }
 
-#A {
-
-	width: 95vmin;
-
-	min-height: 500px;
-
-	height: auto;
-
-	margin: 10px auto;
-
+html,body{
+	height:100%;
+	
 }
 
 h1 {
@@ -31,10 +24,23 @@ h1 {
 	color: rgb(41, 41, 41);
 }
 
+/*質問番号を表示させたくなったらここをオン
+qa-component{
+	counter-increment: qa-component;
+}
+.num:before{
+	content:counter(qa-component);
+	font-size:5vmin;
+	margin-left:-2vmin;
+	vertical-align: -1vmin;
+} 
+*/
 .q_a {
 	height: auto;
 	border-bottom: 1px dashed lightgray;
 	margin: 3vmin 5vmin;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .q_a span {
@@ -110,7 +116,8 @@ dt::after {
 }
 
 
-.q_a>label>input:checked~label>dd,.q_a>label>input:checked~label>dd>a>img {
+.q_a>label>input:checked~label>dd,
+.q_a>label>input:checked~label>dd>a>img {
 	position: relative;
 	visibility: visible;
 	transform: translateY(0px);
@@ -135,8 +142,8 @@ dt::after {
 	visibility: hidden;
 	display: flex;
 	margin: auto;
-	width: 112vmin;
-	height: 70vmin;
+	width: 70%;
+	height: auto;
 	padding-bottom: 2vmin;
 }
 
