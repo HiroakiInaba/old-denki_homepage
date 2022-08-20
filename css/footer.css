@@ -114,8 +114,7 @@ footer p{
 		display: block;
 		position :absolute;
 		color:rgb(211, 211, 211);
-		margin-left:60vw;
-		margin-top:-30vh;
+		margin-left:40%;
 		font-size:3vmin;
 		word-break: keep-all;
 		overflow-wrap: break-word;
