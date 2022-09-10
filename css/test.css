@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	width: 100%;
 	margin: 0 auto;
-	background-color:#b1aeae
+	background-color:#ffffff
 }
 
 .header_1{
@@ -19,7 +19,27 @@ body {
 	margin:10px;
 	display:flex;
 }
+p{
+	font-size:3px;
+}
+.a1{
+	
+	width:100px;
+	content:"右方向へ虹色に";
+	height: 50px;
+	background-image: linear-gradient(to right,purple,indigo,blue,lightblue,green,lightgreen,yellow,orange,red);
+}
 
+.a2{
+	height:50px;
+	width:50px;
+	background-image: linear-gradient(45deg,blue,rgb(255, 247, 0));
+}
+.a3{
+	height:50px;
+	width:50px;
+	background-image: radial-gradient(rgb(0, 68, 255),rgb(26, 255, 0));
+}
 body :before {
 	padding: 75%;
 }

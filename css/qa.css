@@ -11,9 +11,10 @@
 	background-color: #ffffff
 }
 
-html,body{
-	height:100%;
-	
+html,
+body {
+	height: 100%;
+
 }
 
 h1 {
@@ -117,7 +118,7 @@ dt::after {
 
 
 .q_a>label>input:checked~label>dd,
-.q_a>label>input:checked~label>dd>a>img {
+.q_a>label>input:checked~label>dd>button>div>img {
 	position: relative;
 	visibility: visible;
 	transform: translateY(0px);
@@ -151,3 +152,18 @@ dt::after {
 	font-size: 2vmin;
 	text-align: right;
 }
+
+#open {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+  }
+  
+
+#fullScreen:modal > img {
+	display: block;
+	margin: 0 auto;
+	width: 95%;
+	height: 95%;
+  }
