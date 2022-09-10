@@ -168,7 +168,7 @@ dt::after {
 	height: 95%;
 }
 
-@media screen and (orientation: portrait){
+@media screen and (max-width:1000px){
 	#fullScreen:modal>img {
 		display: block;
 		margin: 0 auto;
