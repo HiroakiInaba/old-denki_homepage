@@ -125,7 +125,7 @@ body {
 	border-bottom-color: #b2ddf0;
 }
 
-.music {
+.media {
 	position: relative;
 	padding: 0.35em 0.5em;
 	background: #5aff19;
@@ -133,7 +133,7 @@ body {
 	margin: 5vw 0 0 0;
 }
 
-.music:before {
+.media:before {
 	content: " ";
 	position: absolute;
 	top: -16px;

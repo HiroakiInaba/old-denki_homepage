@@ -47,14 +47,14 @@ hr {
 }
 
 
-.discription {
+.description {
 	position: relative;
 	margin: auto;
 	margin-top: -5vmin;
 	width:50%;
 }
 
-.discription h4 {
+.description h4 {
 	font-size: 5vmin;
 	text-align: center;
 	height: 5vmin;
@@ -124,7 +124,7 @@ hr {
 	margin-left: 1vw;
 	margin-top: -1vmin;
 	z-index: 0;
-	font-size: 2vw;
+	font-size: 1.5vw;
 }
 
 .time_game .content {
@@ -139,7 +139,9 @@ hr {
 	z-index: 0;
 	font-size: 2vw;
 }
-
+.content > span {
+	font-weight: bold;
+}
 .game_link {
 	position: relative;
 	margin: auto;

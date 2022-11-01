@@ -1,7 +1,6 @@
 "use strict"
 
 /*Q＆Aコンポーネント*/
-
 class Question_Answer extends HTMLElement {
 	constructor() {
 		super();
@@ -17,13 +16,13 @@ class Question_Answer extends HTMLElement {
 	}
 }
 
-
+/*gameコンポーネント*/
 class Game extends HTMLElement {
 	constructor() {
 		super();
 		this.innerHTML = '<div class="game_">' +
 			`		<img src = "${this.getAttribute("image")}" class="image_vw" alt = "" >` +
-			'				<div class="discription">' +
+			'				<div class="description">' +
 			'					<h4>' +
 			`						${this.getAttribute("title")}` +
 			'					</h4>' +
@@ -32,7 +31,7 @@ class Game extends HTMLElement {
 			'							ゲーム概要' +
 			'						</p>' +
 			'						<p class="content">' +
-			`							${this.getAttribute("discription")}` +
+			`							<span>[ジャンル:${this.getAttribute("genre")}]</span><br/>${this.getAttribute("description")}` +
 			'							</p>' +
 			'							</div>' +
 			'							<div class="time_game">' +
@@ -51,5 +50,34 @@ class Game extends HTMLElement {
 	}
 }
 
+/*mediaコンポーネント*/
+class Media extends HTMLElement {
+	constructor() {
+		super();
+		this.innerHTML =
+			`<div class="Work"> ` +
+			`	<div class="description" color="${this.getAttribute('color')}"}> ` +
+			`	  <p class="title"> ` +
+			`			Title` +
+			`		</p> ` +
+			`		<h4> ` +
+			`			${this.getAttribute("title")}` +
+			`		</h4> ` +
+			`		<p class="dis"> ` +
+			`			Content` +
+			`		</p> ` +
+			`		<h5 class="text"> ` +
+			`     ${this.getAttribute("description")}` +
+			`		</h5>` +
+			`	</div>` +
+			`	<div class="movie">` +
+			`	  <iframe src="${this.getAttribute('link')}" title="YouTube video player"` +
+			`		  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"` +
+			`			allowfullscreen class="image_vw"></iframe>` +
+			`	</div>` +
+			`</div> `;
+	}
+}
 customElements.define('qa-component', Question_Answer);
 customElements.define('game-component', Game);
+customElements.define('media-component', Media);

@@ -54,6 +54,8 @@ iframe{
 .Work{
 	display: flex;
 	margin:auto;
+	margin-bottom:3%;
+	border-bottom: dashed 1px rgb(95, 95, 95);
 }
 
 .movie {
@@ -69,14 +71,13 @@ iframe{
 	box-shadow:0 0vmin 0.5vmin 0.3vmin rgb(19, 19, 19); 
 }
 
-.discription {
+.description {
 	position: relative;
 	width: 30%;
 	height:auto;
 	margin:3vmin;
 	margin-left:5vmin;
 	margin-bottom:10vh;
-	background-image:linear-gradient(rgba(52, 70, 236, 0.726),rgb(200, 238, 249));
 	/* display:flex; */
 	border: solid 0.7vmin #d2d05a;
 
@@ -92,7 +93,7 @@ iframe{
 	/* border-radius: 9px; */
 }
 
-.discription p{
+.description p{
 	margin :5vmin auto;
 	text-align: center;
 	color:rgb(255, 242, 0);
@@ -101,16 +102,31 @@ iframe{
 	text-shadow: 0.1vmin 0.1vmin 0 rgb(0, 0, 0),
 	-0.1vmin 0.1vmin 0 rgb(0, 0, 0),
 	0.1vmin -0.1vmin 0 rgb(0, 0, 0),
-	-0.1vmin -0.1vmin 0 rgb(0, 0, 0)
-	;
-	
+	-0.1vmin -0.1vmin 0 rgb(0, 0, 0);
 }
 
-.discription h4{
+.description[color ="blue"]{
+	background:linear-gradient(rgba(52, 70, 236, 0.726),rgb(200, 238, 249));
+}
+.description[color ="yellow"]{
+	background:linear-gradient(rgb(244, 255, 30),rgb(248, 249, 200));
+}
+.description[color ="red"]{
+	background:linear-gradient(rgba(255, 37, 37, 1),rgba(249, 200, 200, 1));
+}
+.description[color ="green"]{
+	background:linear-gradient(rgb(90, 255, 90),rgb(205, 255, 214));
+}
+.description[color ="lightcyan"]{
+	background:linear-gradient(rgb(134, 255, 245),rgb(200, 238, 249));
+}
+
+.description h4{
 	margin :5vmin 3.5vmin;
 	color:white;
 	font-size:6vmin;
 	font-family: "my";
+	text-align: center;
 	text-shadow: 0.1vmin 0.1vmin 0 rgb(0, 0, 0),
 	-0.1vmin 0.1vmin 0 rgb(0, 0, 0),
 	0.1vmin -0.1vmin 0 rgb(0, 0, 0),
@@ -118,11 +134,11 @@ iframe{
 	;
 }
 
-.discription .dis{
+.description .dis{
 	margin-top:15vmin;
 }
 
-.discription h5{
+.description h5{
 	margin :5vmin 3.5vmin;
 	text-align: center;
 	color:white;
